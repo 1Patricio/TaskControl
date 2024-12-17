@@ -9,7 +9,6 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
 import br.com.andersonpatricio.todolist.user.IUserRepository;
-import jakarta.servlet.Filter; //servlet é a base para frameworks web do java
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;

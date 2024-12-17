@@ -36,6 +36,6 @@ public class UserController { //classe
         userModel.setPassword(passwordHashred); // Set senha criptografada 
 
         var userCreated = this.userRepository.save(userModel);
-        return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
+        return ResponseEntity.status(HttpStatus.OK).body(userCreated);
     }
 }

@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.andersonpatricio.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.websocket.server.PathParam;
 
 @RestController
 @RequestMapping("/tasks")
